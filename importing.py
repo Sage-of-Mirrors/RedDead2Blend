@@ -5,6 +5,7 @@ import bpy
 from bpy_extras.io_utils import ImportHelper
 from bpy.props import StringProperty, BoolProperty, EnumProperty, IntProperty, PointerProperty
 from bpy.types import Operator
+from mathutils import Matrix, Vector, Quaternion
 
 from . import pylibdrawable
 
@@ -50,16 +51,9 @@ class ImportYdr(Operator, ImportHelper):
             bpy.ops.object.mode_set(mode='EDIT')
             
             for jntIdx, jnt in enumerate(skel.FlatSkeleton):
-                print(jnt.Name)
                 arma.edit_bones.new(jnt.Name)
             
-            for jntIdx, jnt in enumerate(skel.FlatSkeleton):
-                realJnt = arma.edit_bones[jnt.Name]
-                
-                if jnt.Parent is not None:
-                    realJnt.parent = arma.edit_bones[jnt.Parent.Name]
-                    
-                realJnt.head.z += 10 * jntIdx + 10
+            self.build_joint_transforms_recursive(arma, skel.Root, Matrix.Identity(4))
                   
             bpy.context.view_layer.update()
             bpy.ops.object.mode_set(mode='OBJECT')
@@ -105,14 +99,58 @@ class ImportYdr(Operator, ImportHelper):
                     
                     geomMesh.from_pydata(verts, [], indices)
                     
-                    geomMesh.update()
+                    if arma is not None:
+                        mod = geomObj.modifiers.new('Armature', type='ARMATURE')
+                        mod.object = armaObj
+                        
+                        for i in range(len(arma.bones)):
+                            geomObj.vertex_groups.new(name=arma.bones[i].name)
+                            
+                        blend_indices = geom.GetVertexBlendIndexArray()
+                        blend_weights = geom.GetVertexBlendWeightArray()
+                        
+                        for i in range(len(blend_indices)):
+                            for n in range(4):
+                                if blend_weights[i][n] == 0:
+                                    continue
+                                    
+                                jnt_index = blend_indices[i][n]
+                                geomObj.vertex_groups[jnt_index].add([i], blend_weights[i][n], 'ADD')
                     
+                    geomMesh.update()
                     bpy.context.collection.objects.link(geomObj)
                     
             bpy.context.collection.objects.link(lodObj)
         
         return {retcode}
+    
+    def build_joint_transforms_recursive(self, armature, cur_joint, parent_mtx):
+        realJnt = armature.edit_bones[cur_joint.Name]
         
+        # Try to set joint parent
+        if cur_joint.Parent is not None:
+            realJnt.parent = armature.edit_bones[cur_joint.Parent.Name]
+        
+        # Set joint position
+        realJnt.head.xyz = parent_mtx @ Vector(cur_joint.GetTranslation())
+        realJnt.tail.xyz = realJnt.head.xyz + Vector((0, 0, 0.01))
+        
+        # Grab translation and scale for current joint
+        jntTrans = Vector(cur_joint.GetTranslation())
+        jntScale = Vector(cur_joint.GetScale())
+        
+        # Blender expects quaternions in (w, x, y, z) order, ensure w is first in the constructor
+        jntRot = cur_joint.GetRotation()
+        correctedRot = Quaternion((jntRot[3], jntRot[0], jntRot[1], jntRot[2]))
+        
+        # calculate new parent matrix
+        transMtx = Matrix.LocRotScale(jntTrans, correctedRot, jntScale)
+        new_mtx = parent_mtx @ transMtx
+        
+        # Recurse down the hierarchy
+        for child in cur_joint.Children:
+            self.build_joint_transforms_recursive(armature, child, new_mtx)
+    
     def draw(self, context):
         pass
 
