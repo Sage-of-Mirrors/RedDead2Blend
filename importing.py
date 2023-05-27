@@ -10,26 +10,9 @@ from mathutils import Matrix, Vector, Quaternion
 from . import pylibdrawable
 
 
-""" YDR import class """
-class ImportYdr(Operator, ImportHelper):
-    """This appears in the tooltip of the operator and in the generated docs"""
-    bl_idname = "import_mesh.ydr"
-    bl_label = "Import YDR"
-
-    filename_ext = ".ydr"
-
-    filter_glob: StringProperty(
-        default="*.ydr",
-        options={'HIDDEN'},
-        maxlen=255,  # Max internal buffer length, longer would be clamped.
-    )
-    
-    def execute(self, context):
-        retcode = 'FINISHED'
-        
-        ydrModel = pylibdrawable.ImportYdr(self.filepath)
-        
-        ydrObj = bpy.data.objects.new(ydrModel.FileName.split(".")[0], None)
+class Drawable():
+    def load_drawable(self, ydrModel):
+        ydrObj = bpy.data.objects.new(str(ydrModel.DictionaryHash) + ydrModel.FileName.split(".")[0], None)
         ydrObj.empty_display_size = 2
         ydrObj.empty_display_type = 'PLAIN_AXES'
             
@@ -121,8 +104,6 @@ class ImportYdr(Operator, ImportHelper):
                     bpy.context.collection.objects.link(geomObj)
                     
             bpy.context.collection.objects.link(lodObj)
-        
-        return {retcode}
     
     def build_joint_transforms_recursive(self, armature, cur_joint, parent_mtx):
         realJnt = armature.edit_bones[cur_joint.Name]
@@ -150,6 +131,31 @@ class ImportYdr(Operator, ImportHelper):
         # Recurse down the hierarchy
         for child in cur_joint.Children:
             self.build_joint_transforms_recursive(armature, child, new_mtx)
+
+
+""" YDR import class """
+class ImportYdr(Operator, ImportHelper):
+    """This appears in the tooltip of the operator and in the generated docs"""
+    bl_idname = "import_mesh.ydr"
+    bl_label = "Import YDR"
+
+    filename_ext = ".ydr"
+
+    filter_glob: StringProperty(
+        default="*.ydr",
+        options={'HIDDEN'},
+        maxlen=255,  # Max internal buffer length, longer would be clamped.
+    )
+    
+    def execute(self, context):
+        retcode = 'FINISHED'
+        
+        ydrModel = pylibdrawable.ImportYdr(self.filepath)
+        
+        drawable = Drawable()
+        drawable.load_drawable(ydrModel)
+        
+        return {retcode}
     
     def draw(self, context):
         pass
@@ -172,7 +178,11 @@ class ImportYdd(Operator, ImportHelper):
     def execute(self, context):
         retcode = 'FINISHED'
         
-        # TODO
+        yddModels = pylibdrawable.ImportYdd(self.filepath)
+        
+        for d in yddModels.Drawables:
+          drawable = Drawable()
+          drawable.load_drawable(d)
         
         return {retcode}
         

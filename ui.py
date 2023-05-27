@@ -12,7 +12,7 @@ class TOPBAR_MT_file_import_reddead2(bpy.types.Menu):
     
     def draw(self, context):
         self.layout.operator(ImportYdr.bl_idname, text="Drawable (*.ydr)")
-        #self.layout.operator(ImportYdd.bl_idname, text="Drawable Dictionary (*.ydd)")
+        self.layout.operator(ImportYdd.bl_idname, text="Drawable Dictionary (*.ydd)")
         #self.layout.operator(ImportYft.bl_idname, text="Fragment (*.yft)")
         
     def menu_draw(self, context):
