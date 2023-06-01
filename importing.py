@@ -67,10 +67,10 @@ class Drawable():
                 bpy.context.collection.objects.link(modelObj)
                 
                 for geomIdx, geom in enumerate(model.Geometries):
-                    if len(geom.Vertices) == 0:
-                        continue
+                    #if len(geom.Vertices) == 0:
+                    #    continue
                         
-                    verts = geom.GetVertexPositionArray()
+                    verts = geom.GetVertexPositionArray(0)
                     indices = geom.GetIndexArray()
                         
                     # Create mesh for this geometry
@@ -81,7 +81,53 @@ class Drawable():
                     geomObj.parent = modelObj
                     
                     geomMesh.from_pydata(verts, [], indices)
+                    geomMesh.update()
                     
+                    # Add normals to mesh
+                    normal_loops = []
+                    vert_normals = geom.GetVertexNormalArray(0)
+                    for i in indices:
+                        normal_loops.append(vert_normals[i[0]])
+                        normal_loops.append(vert_normals[i[1]])
+                        normal_loops.append(vert_normals[i[2]])
+                    
+                    geomMesh.use_auto_smooth = True
+                    geomMesh.normals_split_custom_set(normal_loops)
+                    geomMesh.calc_normals_split()
+                    
+                    geomMesh.update()
+                    
+                    # Add colors to mesh
+                    for color_index in range(4):
+                        print(color_index)
+                        vert_colors = geom.GetVertexColorArray(color_index)
+                        
+                        color_layer_name = "color_" + str(color_index)
+                        color_attr = geomMesh.color_attributes.new(color_layer_name, 'FLOAT_COLOR', 'POINT')
+                        
+                        for i in range(len(color_attr.data)):
+                            color_attr.data[i].color = vert_colors[i]
+                    
+                    # Add tex coords to mesh
+                    for tex_coord_index in range(geom.TexCoordsCount):
+                        vert_texcoords = geom.GetVertexTexCoordArray(tex_coord_index)
+                        
+                        uv_loops = []
+                        for i in indices:
+                            uv_loops.append(vert_texcoords[i[0]])
+                            uv_loops.append(vert_texcoords[i[1]])
+                            uv_loops.append(vert_texcoords[i[2]])
+                        
+                        uv_layer_name = "uv_" + str(tex_coord_index)
+                        uv_layer = geomMesh.uv_layers.new(name=uv_layer_name)
+                        for loop in geomMesh.loops:
+                            uv_layer.data[loop.index].uv = uv_loops[loop.index]
+                            
+                        geomMesh.calc_tangents(uvmap=uv_layer_name)
+                    
+                    geomMesh.update()
+                    
+                    # Set up vertex skinning
                     if arma is not None:
                         mod = geomObj.modifiers.new('Armature', type='ARMATURE')
                         mod.object = armaObj
@@ -89,8 +135,8 @@ class Drawable():
                         for i in range(len(arma.bones)):
                             geomObj.vertex_groups.new(name=arma.bones[i].name)
                             
-                        blend_indices = geom.GetVertexBlendIndexArray()
-                        blend_weights = geom.GetVertexBlendWeightArray()
+                        blend_indices = geom.GetVertexBlendIndexArray(0)
+                        blend_weights = geom.GetVertexBlendWeightArray(0)
                         
                         for i in range(len(blend_indices)):
                             for n in range(4):
@@ -101,6 +147,7 @@ class Drawable():
                                 geomObj.vertex_groups[jnt_index].add([i], blend_weights[i][n], 'ADD')
                     
                     geomMesh.update()
+                    
                     bpy.context.collection.objects.link(geomObj)
                     
             bpy.context.collection.objects.link(lodObj)
