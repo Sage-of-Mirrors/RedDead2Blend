@@ -1,0 +1,124 @@
+{
+    "hash": 1118399782,
+    "name": "terrain_lod_2lyr",
+    "uniforms": [
+        {
+            "hash": 1457018309,
+            "name": "1457018309",
+            "size": 0
+        },
+        {
+            "hash": 3370697346,
+            "name": "diffusetex",
+            "size": 0
+        },
+        {
+            "hash": 234123336,
+            "name": "diffusetex2",
+            "size": 0
+        },
+        {
+            "hash": 3619914305,
+            "name": "bumptexture",
+            "size": 0
+        },
+        {
+            "hash": 1415752640,
+            "name": "bumptexture2",
+            "size": 0
+        },
+        {
+            "hash": 2654413540,
+            "name": "speculartexture",
+            "size": 0
+        },
+        {
+            "hash": 3354938678,
+            "name": "speculartexture2",
+            "size": 0
+        },
+        {
+            "hash": 407719239,
+            "name": "trilinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 815341800,
+            "name": "815341800",
+            "size": 0
+        },
+        {
+            "hash": 2009732703,
+            "name": "pointclamp",
+            "size": 0
+        },
+        {
+            "hash": 2030326599,
+            "name": "miplinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 3627498220,
+            "name": "trilinearborderblack",
+            "size": 0
+        },
+        {
+            "hash": 616934151,
+            "name": "gcsmshadowtexturesamp",
+            "size": 0
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2930908312,
+            "name": "2930908312",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 908076107,
+            "name": "908076107",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 2096711322,
+            "name": "2096711322",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 3335624699,
+            "name": "3335624699",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4273584775,
+            "name": "4273584775",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 362055557,
+            "name": "362055557",
+            "size": 2
+        }
+    ]
+}

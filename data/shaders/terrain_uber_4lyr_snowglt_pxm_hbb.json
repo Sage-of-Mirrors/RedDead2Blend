@@ -1,0 +1,427 @@
+{
+    "hash": 1853898275,
+    "name": "terrain_uber_4lyr_snowglt_pxm_hbb",
+    "uniforms": [
+        {
+            "hash": 3228957110,
+            "name": "lookuptexture",
+            "size": 0
+        },
+        {
+            "hash": 3464205966,
+            "name": "diffusetexture_layer0",
+            "size": 0
+        },
+        {
+            "hash": 668717758,
+            "name": "bumptexture_layer0",
+            "size": 0
+        },
+        {
+            "hash": 807591480,
+            "name": "materialmapatexture_layer0",
+            "size": 0
+        },
+        {
+            "hash": 3632507550,
+            "name": "diffusetexture_layer1",
+            "size": 0
+        },
+        {
+            "hash": 2115993412,
+            "name": "bumptexture_layer1",
+            "size": 0
+        },
+        {
+            "hash": 1108410900,
+            "name": "materialmapatexture_layer1",
+            "size": 0
+        },
+        {
+            "hash": 851042057,
+            "name": "diffusetexture_layer2",
+            "size": 0
+        },
+        {
+            "hash": 1282776049,
+            "name": "bumptexture_layer2",
+            "size": 0
+        },
+        {
+            "hash": 215357343,
+            "name": "materialmapatexture_layer2",
+            "size": 0
+        },
+        {
+            "hash": 1024521143,
+            "name": "diffusetexture_layer3",
+            "size": 0
+        },
+        {
+            "hash": 1457018309,
+            "name": "1457018309",
+            "size": 0
+        },
+        {
+            "hash": 3733241873,
+            "name": "bumptexture_layer3",
+            "size": 0
+        },
+        {
+            "hash": 1050901305,
+            "name": "materialmapatexture_layer3",
+            "size": 0
+        },
+        {
+            "hash": 1068996175,
+            "name": "tinttexture",
+            "size": 0
+        },
+        {
+            "hash": 436300926,
+            "name": "tintbumptexture",
+            "size": 0
+        },
+        {
+            "hash": 407719239,
+            "name": "trilinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 2009732703,
+            "name": "pointclamp",
+            "size": 0
+        },
+        {
+            "hash": 2030326599,
+            "name": "miplinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 3829829819,
+            "name": "trilinearwrap",
+            "size": 0
+        },
+        {
+            "hash": 1938598145,
+            "name": "miplinearwrap",
+            "size": 0
+        },
+        {
+            "hash": 1237527396,
+            "name": "1237527396",
+            "size": 0
+        },
+        {
+            "hash": 2344790251,
+            "name": "raintexturesamplerglobal",
+            "size": 0
+        },
+        {
+            "hash": 3627498220,
+            "name": "trilinearborderblack",
+            "size": 0
+        },
+        {
+            "hash": 616934151,
+            "name": "gcsmshadowtexturesamp",
+            "size": 0
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 3368873060,
+            "name": "uvscalebias",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 4134611841,
+            "name": "bumpiness",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 2772381270,
+            "name": "wetness",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 1711496342,
+            "name": "porosity",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 3678270110,
+            "name": "terrainfresnel",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1588765741,
+            "name": "pxmenabled",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 2818023055,
+            "name": "pxmscales1234",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 1428361675,
+            "name": "pxmbiases1234",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 3676759262,
+            "name": "tintintensity",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 481228442,
+            "name": "tintblendamount",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4082432150,
+            "name": "lookupuvset",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 1917578645,
+            "name": "uvset",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3945627717,
+            "name": "clamplookuptexture",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 2989726316,
+            "name": "hbbrangescale1234",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 58018546,
+            "name": "hbbrangebias1234",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 3418801587,
+            "name": "blendsoftness",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 4092362441,
+            "name": "detailindices",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 650940308,
+            "name": "detailsettings0",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 411202304,
+            "name": "detailsettings1",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 122736797,
+            "name": "detailsettings2",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 4180489302,
+            "name": "detailsettings3",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 242286661,
+            "name": "parallaxselfshadowamount",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1176544093,
+            "name": "usetessellation",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1050543455,
+            "name": "pbrtweak_roughness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3884260641,
+            "name": "pbrtweak_ao",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 458921302,
+            "name": "pbrtweak_detail",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 471519116,
+            "name": "pbrtweak_detailindex_",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 2679874948,
+            "name": "2679874948",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 2096711322,
+            "name": "2096711322",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4273584775,
+            "name": "4273584775",
+            "size": 1
+        }
+    ]
+}

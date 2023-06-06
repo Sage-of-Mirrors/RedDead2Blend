@@ -1,0 +1,214 @@
+{
+    "hash": 3712533926,
+    "name": "emissivenight_additive_alpha_flipbook",
+    "uniforms": [
+        {
+            "hash": 3925027168,
+            "name": "3925027168",
+            "size": 0
+        },
+        {
+            "hash": 3370697346,
+            "name": "diffusetex",
+            "size": 0
+        },
+        {
+            "hash": 1457018309,
+            "name": "1457018309",
+            "size": 0
+        },
+        {
+            "hash": 2009732703,
+            "name": "pointclamp",
+            "size": 0
+        },
+        {
+            "hash": 4059966321,
+            "name": "diffusesampler",
+            "size": 0
+        },
+        {
+            "hash": 407719239,
+            "name": "trilinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 3627498220,
+            "name": "trilinearborderblack",
+            "size": 0
+        },
+        {
+            "hash": 2030326599,
+            "name": "miplinearclamp",
+            "size": 0
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1592520008,
+            "name": "1592520008",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 4035335077,
+            "name": "tintoverride",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1176544093,
+            "name": "usetessellation",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2794671126,
+            "name": "marktaaghostingbit",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2108103753,
+            "name": "2108103753",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1530339848,
+            "name": "1530339848",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 333407776,
+            "name": "333407776",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 2417369768,
+            "name": "2417369768",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2707924959,
+            "name": "2707924959",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 3287115209,
+            "name": "3287115209",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 2461959020,
+            "name": "2461959020",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2591650449,
+            "name": "2591650449",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 900325362,
+            "name": "900325362",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4283857992,
+            "name": "4283857992",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3051375255,
+            "name": "3051375255",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 164114821,
+            "name": "164114821",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1014389104,
+            "name": "1014389104",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 2679874948,
+            "name": "2679874948",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 2096711322,
+            "name": "2096711322",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4273584775,
+            "name": "4273584775",
+            "size": 1
+        }
+    ]
+}

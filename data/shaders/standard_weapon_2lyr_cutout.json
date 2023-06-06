@@ -1,0 +1,486 @@
+{
+    "hash": 187724081,
+    "name": "standard_weapon_2lyr_cutout",
+    "uniforms": [
+        {
+            "hash": 747467138,
+            "name": "tintpalettetex",
+            "size": 0
+        },
+        {
+            "hash": 878941418,
+            "name": "lyr0diffusetex",
+            "size": 0
+        },
+        {
+            "hash": 2227606352,
+            "name": "lyr0normaltex",
+            "size": 0
+        },
+        {
+            "hash": 733146600,
+            "name": "lyr0materialatex",
+            "size": 0
+        },
+        {
+            "hash": 2102334178,
+            "name": "lyr1diffusetex",
+            "size": 0
+        },
+        {
+            "hash": 1488381703,
+            "name": "lyr1normaltex",
+            "size": 0
+        },
+        {
+            "hash": 1297537022,
+            "name": "lyr1materialatex",
+            "size": 0
+        },
+        {
+            "hash": 954977715,
+            "name": "controltexturetex",
+            "size": 0
+        },
+        {
+            "hash": 406089282,
+            "name": "rustnoisetex",
+            "size": 0
+        },
+        {
+            "hash": 3366316709,
+            "name": "engravingtexturetex",
+            "size": 0
+        },
+        {
+            "hash": 3218917814,
+            "name": "albedopalettetex",
+            "size": 0
+        },
+        {
+            "hash": 492581387,
+            "name": "engravingsecondaytexture",
+            "size": 0
+        },
+        {
+            "hash": 407719239,
+            "name": "trilinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 2009732703,
+            "name": "pointclamp",
+            "size": 0
+        },
+        {
+            "hash": 2030326599,
+            "name": "miplinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 3829829819,
+            "name": "trilinearwrap",
+            "size": 0
+        },
+        {
+            "hash": 1938598145,
+            "name": "miplinearwrap",
+            "size": 0
+        },
+        {
+            "hash": 3515479675,
+            "name": "3515479675",
+            "size": 0
+        },
+        {
+            "hash": 900214009,
+            "name": "900214009",
+            "size": 0
+        },
+        {
+            "hash": 3627498220,
+            "name": "trilinearborderblack",
+            "size": 0
+        },
+        {
+            "hash": 616934151,
+            "name": "gcsmshadowtexturesamp",
+            "size": 0
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 4258764495,
+            "name": "tintpaletteselector",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 252618358,
+            "name": "lyr0fresnel",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3559851176,
+            "name": "lyr0bumpiness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1389929828,
+            "name": "lyr0tint",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1469897323,
+            "name": "lyr0cavity",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3414224287,
+            "name": "lyr0porosity",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3350066331,
+            "name": "lyr0albedomodifier",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1148441751,
+            "name": "lyr0roughnessmodifier",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2398628923,
+            "name": "lyr0metalnessmodifier",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2994468915,
+            "name": "lyr1fresnel",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1256924129,
+            "name": "lyr1bumpiness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1862790865,
+            "name": "lyr1tint",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3849620999,
+            "name": "lyr1cavity",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3151603165,
+            "name": "lyr1porosity",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 639082818,
+            "name": "lyr1tileamount",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1739815921,
+            "name": "dirtroughness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 1146381126,
+            "name": "dirtcolor",
+            "size": 3
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1645599,
+            "name": "sootroughness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 3627506524,
+            "name": "sootcolor",
+            "size": 3
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 1508578757,
+            "name": "controlfilter",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3650889374,
+            "name": "engravingshow",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 533406348,
+            "name": "engravingshowmaterial",
+            "size": 3
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 2485956779,
+            "name": "engravingmaterialthreshold",
+            "size": 3
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1040047153,
+            "name": "engravingcreatebump",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1349086241,
+            "name": "engravingcavityamt",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2201369534,
+            "name": "engravingdiffuseamt",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 55466338,
+            "name": "engravingselfshadowamt",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3004929221,
+            "name": "engravinginvert",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1791779654,
+            "name": "engravingbumpiness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1763587379,
+            "name": "usetranslucency",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 813000954,
+            "name": "useoverlayblend",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 4035335077,
+            "name": "tintoverride",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2682647218,
+            "name": "pbrtweak_metallic",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3596981284,
+            "name": "pbrtweak_sheen",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1050543455,
+            "name": "pbrtweak_roughness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3884260641,
+            "name": "pbrtweak_ao",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 923928177,
+            "name": "pbrtweak_translucency",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 960660013,
+            "name": "pbrtweak_fresnel",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 458921302,
+            "name": "pbrtweak_detail",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 471519116,
+            "name": "pbrtweak_detailindex_",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1221060395,
+            "name": "pbrdetail_metallic",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 439599085,
+            "name": "pbrdetail_sheen",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2697288857,
+            "name": "pbrdetail_roughness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3300382745,
+            "name": "pbrdetail_ao",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2556539516,
+            "name": "pbrdetail_translucency",
+            "size": 1
+        }
+    ]
+}

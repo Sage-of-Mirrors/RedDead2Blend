@@ -1,0 +1,101 @@
+{
+    "hash": 1850881185,
+    "name": "grass_imposter_slod",
+    "uniforms": [
+        {
+            "hash": 411625335,
+            "name": "occlusiontex",
+            "size": 0
+        },
+        {
+            "hash": 448000612,
+            "name": "computedatabuffer",
+            "size": 0
+        },
+        {
+            "hash": 4038488897,
+            "name": "batchdisabledbitfield",
+            "size": 0
+        },
+        {
+            "hash": 2533822745,
+            "name": "2533822745",
+            "size": 0
+        },
+        {
+            "hash": 3211260904,
+            "name": "3211260904",
+            "size": 0
+        },
+        {
+            "hash": 3437639969,
+            "name": "computeinstancebuffer",
+            "size": 0
+        },
+        {
+            "hash": 2179172300,
+            "name": "slodinfobuffer",
+            "size": 0
+        },
+        {
+            "hash": 2437093279,
+            "name": "impostertexarray1",
+            "size": 0
+        },
+        {
+            "hash": 2733456115,
+            "name": "impostertexarray2",
+            "size": 0
+        },
+        {
+            "hash": 2753578621,
+            "name": "2753578621",
+            "size": 0
+        },
+        {
+            "hash": 1053525294,
+            "name": "1053525294",
+            "size": 0
+        },
+        {
+            "hash": 1083074049,
+            "name": "1083074049",
+            "size": 0
+        },
+        {
+            "hash": 626433366,
+            "name": "626433366",
+            "size": 0
+        },
+        {
+            "hash": 1659708180,
+            "name": "1659708180",
+            "size": 0
+        },
+        {
+            "hash": 407719239,
+            "name": "trilinearclamp",
+            "size": 0
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 1082098581,
+            "name": "glodfadetilescale",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 2451630214,
+            "name": "glodtransitionrange",
+            "size": 4
+        }
+    ]
+}

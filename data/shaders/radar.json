@@ -1,0 +1,78 @@
+{
+    "hash": 3103374064,
+    "name": "radar",
+    "uniforms": [
+        {
+            "hash": 3370697346,
+            "name": "diffusetex",
+            "size": 0
+        },
+        {
+            "hash": 4088842947,
+            "name": "4088842947",
+            "size": 0
+        },
+        {
+            "hash": 2009732703,
+            "name": "pointclamp",
+            "size": 0
+        },
+        {
+            "hash": 4059966321,
+            "name": "diffusesampler",
+            "size": 0
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 3247763254,
+            "name": "3247763254",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 1632555383,
+            "name": "1632555383",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 1880392259,
+            "name": "1880392259",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 2957679312,
+            "name": "2957679312",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2024632841,
+            "name": "2024632841",
+            "size": 1
+        }
+    ]
+}
