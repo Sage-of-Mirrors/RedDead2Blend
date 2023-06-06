@@ -1,0 +1,147 @@
+{
+    "hash": 11660460,
+    "name": "standard_emissive",
+    "uniforms": [
+        {
+            "hash": 3370697346,
+            "name": "diffusetex",
+            "size": 0
+        },
+        {
+            "hash": 407719239,
+            "name": "trilinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 2030326599,
+            "name": "miplinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 2009732703,
+            "name": "pointclamp",
+            "size": 0
+        },
+        {
+            "hash": 4059966321,
+            "name": "4059966321",
+            "size": 0
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4023228733,
+            "name": "intensity",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3644411688,
+            "name": "opacity",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3232816545,
+            "name": "nightonly",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 654026674,
+            "name": "onofftimes",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 1852645038,
+            "name": "onofffades",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1925348515,
+            "name": "alphauvset",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 32240534,
+            "name": "calcbyambientcol",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3260732528,
+            "name": "calcbyambientintensity",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1846551914,
+            "name": "calcbysuncol",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3072551032,
+            "name": "calcbysunintensity",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4129466014,
+            "name": "mixamtcol",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 619958586,
+            "name": "blendamtcol",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 566042502,
+            "name": "blendamtintensity",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 1071425236,
+            "name": "diffusecolormultiplier",
+            "size": 3
+        }
+    ]
+}

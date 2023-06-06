@@ -1,0 +1,684 @@
+{
+    "hash": 1339160340,
+    "name": "standard_fur",
+    "uniforms": [
+        {
+            "hash": 747467138,
+            "name": "tintpalettetex",
+            "size": 0
+        },
+        {
+            "hash": 3370697346,
+            "name": "diffusetex",
+            "size": 0
+        },
+        {
+            "hash": 3925027168,
+            "name": "3925027168",
+            "size": 0
+        },
+        {
+            "hash": 215119715,
+            "name": "detailtexarrayn",
+            "size": 0
+        },
+        {
+            "hash": 511164236,
+            "name": "bumptex",
+            "size": 0
+        },
+        {
+            "hash": 3337907833,
+            "name": "speculartex",
+            "size": 0
+        },
+        {
+            "hash": 1939750157,
+            "name": "speculartex2",
+            "size": 0
+        },
+        {
+            "hash": 1661149109,
+            "name": "noisetexture",
+            "size": 0
+        },
+        {
+            "hash": 2009732703,
+            "name": "pointclamp",
+            "size": 0
+        },
+        {
+            "hash": 4059966321,
+            "name": "4059966321",
+            "size": 0
+        },
+        {
+            "hash": 407719239,
+            "name": "trilinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 3829829819,
+            "name": "trilinearwrap",
+            "size": 0
+        },
+        {
+            "hash": 2030326599,
+            "name": "miplinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 1426400711,
+            "name": "anisotropic16xwrap",
+            "size": 0
+        },
+        {
+            "hash": 1938598145,
+            "name": "miplinearwrap",
+            "size": 0
+        },
+        {
+            "hash": 1186448975,
+            "name": "1186448975",
+            "size": 0
+        },
+        {
+            "hash": 1619499462,
+            "name": "1619499462",
+            "size": 0
+        },
+        {
+            "hash": 3842658400,
+            "name": "specsampler2",
+            "size": 0
+        },
+        {
+            "hash": 3627498220,
+            "name": "trilinearborderblack",
+            "size": 0
+        },
+        {
+            "hash": 1237527396,
+            "name": "1237527396",
+            "size": 0
+        },
+        {
+            "hash": 2344790251,
+            "name": "raintexturesamplerglobal",
+            "size": 0
+        },
+        {
+            "hash": 616934151,
+            "name": "gcsmshadowtexturesamp",
+            "size": 0
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 4258764495,
+            "name": "tintpaletteselector",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 3038654095,
+            "name": "detailsettings",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3425693070,
+            "name": "detailindexoverride",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3053337291,
+            "name": "fresnel",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 4279333149,
+            "name": "specmapintmask",
+            "size": 3
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 4035335077,
+            "name": "tintoverride",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2482046719,
+            "name": "pbrglassiness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1219007173,
+            "name": "pbrcavityrange",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2682647218,
+            "name": "pbrtweak_metallic",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3596981284,
+            "name": "pbrtweak_sheen",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1050543455,
+            "name": "pbrtweak_roughness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3884260641,
+            "name": "pbrtweak_ao",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 923928177,
+            "name": "pbrtweak_translucency",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 960660013,
+            "name": "pbrtweak_fresnel",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 458921302,
+            "name": "pbrtweak_detail",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 471519116,
+            "name": "pbrtweak_detailindex_",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1221060395,
+            "name": "pbrdetail_metallic",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 439599085,
+            "name": "pbrdetail_sheen",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2697288857,
+            "name": "pbrdetail_roughness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3300382745,
+            "name": "pbrdetail_ao",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2556539516,
+            "name": "pbrdetail_translucency",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4134611841,
+            "name": "bumpiness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 853385205,
+            "name": "wetnessmultiplier",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1711496342,
+            "name": "porosity",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1176544093,
+            "name": "usetessellation",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3913511942,
+            "name": "hardalphablend",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2794671126,
+            "name": "marktaaghostingbit",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1558819192,
+            "name": "usepaintedwetness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 69897081,
+            "name": "haspuddleswitch",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3631959881,
+            "name": "puddleheightbias",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4214762791,
+            "name": "puddlemaskscale",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 941201907,
+            "name": "translucencyastintmask",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2963734346,
+            "name": "furminlayers0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3051890872,
+            "name": "furmaxlayers0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4194724638,
+            "name": "furlength0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2686582638,
+            "name": "furlengthjitter0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3769318642,
+            "name": "furfinlengthadjust0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2107455958,
+            "name": "furshellopacityadjust0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3248130451,
+            "name": "furfinopacityadjust0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1590637540,
+            "name": "shellfurblur0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3128352909,
+            "name": "finfurblur0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4130512081,
+            "name": "newfuralpha0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2794467134,
+            "name": "newfursoften0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3430034301,
+            "name": "newfurfluffup",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1141195635,
+            "name": "furstiffness0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4133671217,
+            "name": "furpervtxstiffness0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1746079191,
+            "name": "furpervtxscriptedstiffness0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3278413776,
+            "name": "furpervtxhacklesstiffness0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2510522494,
+            "name": "furdirtstiffness0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2407386199,
+            "name": "furwetstiffness0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1232146506,
+            "name": "furgravitywindblend0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2108220918,
+            "name": "furnoiseuvscale0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3300543207,
+            "name": "furselfshadowmin0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3127197572,
+            "name": "furaoblend0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2854249836,
+            "name": "furaofurdepth0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3845603062,
+            "name": "furbasetranslucencyadj0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 998363354,
+            "name": "furtiptranslucencyadj0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4229939749,
+            "name": "furmaskusingbluetint0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 2930156216,
+            "name": "furattencoef0",
+            "size": 3
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3277953348,
+            "name": "furbendwindinfluence0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3612080476,
+            "name": "furbendwindmaxspeedclamp0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 238042404,
+            "name": "finlayercompensation0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2743761755,
+            "name": "shelllayerstart0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3831314553,
+            "name": "finstartposition0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1817113835,
+            "name": "shellcompression0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3520970157,
+            "name": "fincompression0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 682892795,
+            "name": "finlayerinc0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 2556054471,
+            "name": "furglobalparams0",
+            "size": 3
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 1552667691,
+            "name": "furglobalparams1",
+            "size": 4
+        }
+    ]
+}

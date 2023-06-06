@@ -1,0 +1,233 @@
+{
+    "hash": 908546335,
+    "name": "grass_fur",
+    "uniforms": [
+        {
+            "hash": 3370697346,
+            "name": "diffusetex",
+            "size": 0
+        },
+        {
+            "hash": 511164236,
+            "name": "bumptex",
+            "size": 0
+        },
+        {
+            "hash": 3337907833,
+            "name": "speculartex",
+            "size": 0
+        },
+        {
+            "hash": 3838743980,
+            "name": "comboheighttexturefur01",
+            "size": 0
+        },
+        {
+            "hash": 271608383,
+            "name": "comboheighttexturefur23",
+            "size": 0
+        },
+        {
+            "hash": 1426092430,
+            "name": "comboheighttexturefur45",
+            "size": 0
+        },
+        {
+            "hash": 3024924133,
+            "name": "comboheighttexturefur67",
+            "size": 0
+        },
+        {
+            "hash": 79199190,
+            "name": "stippletexture",
+            "size": 0
+        },
+        {
+            "hash": 4059966321,
+            "name": "4059966321",
+            "size": 0
+        },
+        {
+            "hash": 1186448975,
+            "name": "1186448975",
+            "size": 0
+        },
+        {
+            "hash": 1619499462,
+            "name": "1619499462",
+            "size": 0
+        },
+        {
+            "hash": 1709265783,
+            "name": "1709265783",
+            "size": 0
+        },
+        {
+            "hash": 3178703610,
+            "name": "3178703610",
+            "size": 0
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3053337291,
+            "name": "fresnel",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2717254793,
+            "name": "specular",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2844664387,
+            "name": "specularcolor",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2206689093,
+            "name": "fresnelselector",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 4279333149,
+            "name": "specmapintmask",
+            "size": 3
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 4035335077,
+            "name": "tintoverride",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4134611841,
+            "name": "bumpiness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 853385205,
+            "name": "wetnessmultiplier",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1176544093,
+            "name": "usetessellation",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2794671126,
+            "name": "marktaaghostingbit",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 1122745807,
+            "name": "furlayerparams",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 897751165,
+            "name": "furuvscales",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 4141869331,
+            "name": "furalphadistance",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 290288684,
+            "name": "furalphaclip03",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 4280570754,
+            "name": "furalphaclip47",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 1104745269,
+            "name": "furshadow03",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 711397225,
+            "name": "furshadow47",
+            "size": 4
+        }
+    ]
+}

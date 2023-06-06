@@ -1,0 +1,443 @@
+{
+    "hash": 57804526,
+    "name": "standard_decal_hbb",
+    "uniforms": [
+        {
+            "hash": 747467138,
+            "name": "tintpalettetex",
+            "size": 0
+        },
+        {
+            "hash": 3925027168,
+            "name": "3925027168",
+            "size": 0
+        },
+        {
+            "hash": 3370697346,
+            "name": "diffusetex",
+            "size": 0
+        },
+        {
+            "hash": 215119715,
+            "name": "detailtexarrayn",
+            "size": 0
+        },
+        {
+            "hash": 4152773162,
+            "name": "heighttexture",
+            "size": 0
+        },
+        {
+            "hash": 511164236,
+            "name": "bumptex",
+            "size": 0
+        },
+        {
+            "hash": 3337907833,
+            "name": "speculartex",
+            "size": 0
+        },
+        {
+            "hash": 1939750157,
+            "name": "speculartex2",
+            "size": 0
+        },
+        {
+            "hash": 1938598145,
+            "name": "miplinearwrap",
+            "size": 0
+        },
+        {
+            "hash": 407719239,
+            "name": "trilinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 2009732703,
+            "name": "pointclamp",
+            "size": 0
+        },
+        {
+            "hash": 4059966321,
+            "name": "4059966321",
+            "size": 0
+        },
+        {
+            "hash": 2030326599,
+            "name": "miplinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 1426400711,
+            "name": "anisotropic16xwrap",
+            "size": 0
+        },
+        {
+            "hash": 3650584368,
+            "name": "projdecaltexarraysampler",
+            "size": 0
+        },
+        {
+            "hash": 1186448975,
+            "name": "1186448975",
+            "size": 0
+        },
+        {
+            "hash": 3627498220,
+            "name": "trilinearborderblack",
+            "size": 0
+        },
+        {
+            "hash": 1619499462,
+            "name": "1619499462",
+            "size": 0
+        },
+        {
+            "hash": 3842658400,
+            "name": "specsampler2",
+            "size": 0
+        },
+        {
+            "hash": 2344790251,
+            "name": "raintexturesamplerglobal",
+            "size": 0
+        },
+        {
+            "hash": 616934151,
+            "name": "gcsmshadowtexturesamp",
+            "size": 0
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 4258764495,
+            "name": "tintpaletteselector",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 3038654095,
+            "name": "detailsettings",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3425693070,
+            "name": "detailindexoverride",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3053337291,
+            "name": "fresnel",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 4279333149,
+            "name": "specmapintmask",
+            "size": 3
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 4035335077,
+            "name": "tintoverride",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2482046719,
+            "name": "pbrglassiness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1219007173,
+            "name": "pbrcavityrange",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2682647218,
+            "name": "pbrtweak_metallic",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3596981284,
+            "name": "pbrtweak_sheen",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1050543455,
+            "name": "pbrtweak_roughness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3884260641,
+            "name": "pbrtweak_ao",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 923928177,
+            "name": "pbrtweak_translucency",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 960660013,
+            "name": "pbrtweak_fresnel",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 458921302,
+            "name": "pbrtweak_detail",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 471519116,
+            "name": "pbrtweak_detailindex_",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1221060395,
+            "name": "pbrdetail_metallic",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 439599085,
+            "name": "pbrdetail_sheen",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2697288857,
+            "name": "pbrdetail_roughness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3300382745,
+            "name": "pbrdetail_ao",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2556539516,
+            "name": "pbrdetail_translucency",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4134611841,
+            "name": "bumpiness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 853385205,
+            "name": "wetnessmultiplier",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1711496342,
+            "name": "porosity",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1176544093,
+            "name": "usetessellation",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3913511942,
+            "name": "hardalphablend",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 154006575,
+            "name": "usefakecutout",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3418801587,
+            "name": "blendsoftness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 3356686918,
+            "name": "heightfilter",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1591167099,
+            "name": "heightuvset",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2794671126,
+            "name": "marktaaghostingbit",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1558819192,
+            "name": "usepaintedwetness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 69897081,
+            "name": "haspuddleswitch",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3631959881,
+            "name": "puddleheightbias",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4214762791,
+            "name": "puddlemaskscale",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 941201907,
+            "name": "translucencyastintmask",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 197184856,
+            "name": "decalblendopacitygbuffer0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2645848465,
+            "name": "decalblendopacitygbuffer1",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 736464373,
+            "name": "decalblendopacitygbuffer2",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 957818968,
+            "name": "decalblendopacitygbuffer3",
+            "size": 1
+        }
+    ]
+}

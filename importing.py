@@ -260,3 +260,40 @@ class ImportYft(Operator, ImportHelper):
         
     def draw(self, context):
         pass
+
+
+""" Import Menu Class """
+class TOPBAR_MT_file_import_reddead2(bpy.types.Menu):
+    bl_label = "Red Dead Redemption 2"
+    
+    def draw(self, context):
+        self.layout.operator(ImportYdr.bl_idname, text="Drawable (*.ydr)")
+        self.layout.operator(ImportYdd.bl_idname, text="Drawable Dictionary (*.ydd)")
+        #self.layout.operator(ImportYft.bl_idname, text="Fragment (*.yft)")
+        
+    def menu_draw(self, context):
+        self.layout.menu("TOPBAR_MT_file_import_reddead2")
+
+
+""" Module registration """
+def register():
+    # Register import operators
+    bpy.utils.register_class(ImportYdr)
+    bpy.utils.register_class(ImportYdd)
+    bpy.utils.register_class(ImportYft)
+    
+    # Register import menu class and add it to the import menu
+    bpy.utils.register_class(TOPBAR_MT_file_import_reddead2)
+    bpy.types.TOPBAR_MT_file_import.append(TOPBAR_MT_file_import_reddead2.menu_draw)
+    
+
+""" Module unregistration """   
+def unregister():
+    # Clear import menu class and remove it from the import menu
+    bpy.types.TOPBAR_MT_file_import.remove(TOPBAR_MT_file_import_reddead2.menu_draw)
+    bpy.utils.unregister_class(TOPBAR_MT_file_import_reddead2)
+    
+    # Clear import operators
+    bpy.utils.unregister_class(ImportYft)
+    bpy.utils.unregister_class(ImportYdd)
+    bpy.utils.unregister_class(ImportYdr)

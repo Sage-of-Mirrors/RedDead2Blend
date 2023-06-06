@@ -1,0 +1,51 @@
+{
+    "hash": 907324598,
+    "name": "terrain_slod",
+    "uniforms": [
+        {
+            "hash": 3370697346,
+            "name": "diffusetex",
+            "size": 0
+        },
+        {
+            "hash": 3619914305,
+            "name": "bumptexture",
+            "size": 0
+        },
+        {
+            "hash": 2654413540,
+            "name": "speculartexture",
+            "size": 0
+        },
+        {
+            "hash": 407719239,
+            "name": "trilinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 2009732703,
+            "name": "pointclamp",
+            "size": 0
+        },
+        {
+            "hash": 2030326599,
+            "name": "miplinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 815341800,
+            "name": "815341800",
+            "size": 0
+        },
+        {
+            "hash": 3627498220,
+            "name": "trilinearborderblack",
+            "size": 0
+        },
+        {
+            "hash": 616934151,
+            "name": "gcsmshadowtexturesamp",
+            "size": 0
+        }
+    ]
+}

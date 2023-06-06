@@ -1,0 +1,206 @@
+{
+  "name": "standard_alpha",
+  "hash": "3169861569",
+  
+  "uniforms": [
+    {
+      "name": "Tint Palette Selector",
+      "hash": "4258764495",
+      "type": "vec2",
+      "default_data": [ "0.0", "0.0" ]
+    },
+    
+    {
+      "name": "Detail Settings",
+      "hash": "3038654095",
+      "type": "vec4",
+      "default_data": [ "0.0", "0.0", "0.0", "0.0" ]
+    },
+    {
+      "name": "Detail Index Override",
+      "hash": "3425693070",
+      "type": "integer",
+      "default_data": "-1"
+    },
+    
+    {
+      "name": "Fresnel",
+      "hash": "3053337291",
+      "type": "float",
+      "default_data": "1.0"
+    },
+    {
+      "name": "Spec Map Tint Mask",
+      "hash": "4279333149",
+      "type": "vec3",
+      "default_data": [ "0.0", "0.0", "0.0" ]
+    },
+    {
+      "name": "Tint Override",
+      "hash": "4035335077",
+      "type": "vec4",
+      "default_data": [ "1.0", "1.0", "1.0", "0.0" ]
+    },
+    
+    {
+      "name": "Glassiness",
+      "hash": "2482046719",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Cavity Range",
+      "hash": "1219007173",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Metallic (PBR Tweak)",
+      "hash": "2682647218",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Sheen (PBR Tweak)",
+      "hash": "3596981284",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Roughness (PBR Tweak)",
+      "hash": "1050543455",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Ambient Occlusion (PBR Tweak)",
+      "hash": "3884260641",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Translucency (PBR Tweak)",
+      "hash": "923928177",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Fresnel (PBR Tweak)",
+      "hash": "960660013",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Detail (PBR Tweak)",
+      "hash": "458921302",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Detail Index (PBR Tweak)",
+      "hash": "471519116",
+      "type": "integer",
+      "default_data": "-1"
+    },
+    
+    {
+      "name": "Metallic (PBR Detail)",
+      "hash": "1221060395",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Sheen (PBR Detail)",
+      "hash": "439599085",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Roughness (PBR Detail)",
+      "hash": "2697288857",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Ambient Occlusion (PBR Detail )",
+      "hash": "3300382745",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Translucency (PBR Detail)",
+      "hash": "2556539516",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    
+    {
+      "name": "Bumpiness",
+      "hash": "4134611841",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Wetness Multiplier",
+      "hash": "853385205",
+      "type": "float",
+      "default_data": "1.0"
+    },
+    {
+      "name": "Porosity",
+      "hash": "1711496342",
+      "type": "float",
+      "default_data": "0.5"
+    },
+    {
+      "name": "Use Tessellation",
+      "hash": "1176544093",
+      "type": "bool",
+      "default_data": "false"
+    },
+    {
+      "name": "Hard Alpha Blend",
+      "hash": "3913511942",
+      "type": "bool",
+      "default_data": "false"
+    },
+    {
+      "name": "Mark Tag Hosting Bit",
+      "hash": "2794671126",
+      "type": "bool",
+      "default_data": "false"
+    },
+    {
+      "name": "Use Painted Wetness",
+      "hash": "1558819192",
+      "type": "bool",
+      "default_data": "false"
+    },
+    
+    {
+      "name": "Has Puddle Switch",
+      "hash": "69897081",
+      "type": "bool",
+      "default_data": "false"
+    },
+    {
+      "name": "Puddle Height Bias",
+      "hash": "3631959881",
+      "type": "float",
+      "default_data": "0.0"
+    },
+    {
+      "name": "Puddle Mask Scale",
+      "hash": "4214762791",
+      "component_count": 1,
+      "default_data": [ "2.0" ]
+    },
+    
+    {
+      "name": "Translucency as Tint Mask",
+      "hash": "941201907",
+      "type": "float",
+      "default_data": "0.0"
+    }
+  ]
+}

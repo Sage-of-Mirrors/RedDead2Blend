@@ -1,0 +1,82 @@
+{
+    "hash": 2486155310,
+    "name": "water_river_slod1",
+    "uniforms": [
+        {
+            "hash": 2412090912,
+            "name": "flowtexture",
+            "size": 0
+        },
+        {
+            "hash": 2233864217,
+            "name": "fogtexture",
+            "size": 0
+        },
+        {
+            "hash": 407719239,
+            "name": "trilinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 2009732703,
+            "name": "pointclamp",
+            "size": 0
+        },
+        {
+            "hash": 2030326599,
+            "name": "miplinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 1938598145,
+            "name": "miplinearwrap",
+            "size": 0
+        },
+        {
+            "hash": 3829829819,
+            "name": "trilinearwrap",
+            "size": 0
+        },
+        {
+            "hash": 3515479675,
+            "name": "3515479675",
+            "size": 0
+        },
+        {
+            "hash": 815341800,
+            "name": "815341800",
+            "size": 0
+        },
+        {
+            "hash": 3627498220,
+            "name": "trilinearborderblack",
+            "size": 0
+        },
+        {
+            "hash": 731590991,
+            "name": "731590991",
+            "size": 0
+        },
+        {
+            "hash": 616934151,
+            "name": "gcsmshadowtexturesamp",
+            "size": 0
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3108440880,
+            "name": "ripplebumpiness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3553443429,
+            "name": "ripplescale",
+            "size": 1
+        }
+    ]
+}

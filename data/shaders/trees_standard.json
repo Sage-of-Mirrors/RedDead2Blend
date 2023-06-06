@@ -1,0 +1,401 @@
+{
+    "hash": 994063129,
+    "name": "trees_standard",
+    "uniforms": [
+        {
+            "hash": 411625335,
+            "name": "occlusiontex",
+            "size": 0
+        },
+        {
+            "hash": 4038488897,
+            "name": "batchdisabledbitfield",
+            "size": 0
+        },
+        {
+            "hash": 3437639969,
+            "name": "computeinstancebuffer",
+            "size": 0
+        },
+        {
+            "hash": 3370697346,
+            "name": "diffusetex",
+            "size": 0
+        },
+        {
+            "hash": 747467138,
+            "name": "tintpalettetex",
+            "size": 0
+        },
+        {
+            "hash": 3337907833,
+            "name": "speculartex",
+            "size": 0
+        },
+        {
+            "hash": 511164236,
+            "name": "bumptex",
+            "size": 0
+        },
+        {
+            "hash": 3925027168,
+            "name": "3925027168",
+            "size": 0
+        },
+        {
+            "hash": 448000612,
+            "name": "computedatabuffer",
+            "size": 0
+        },
+        {
+            "hash": 2753578621,
+            "name": "2753578621",
+            "size": 0
+        },
+        {
+            "hash": 1053525294,
+            "name": "1053525294",
+            "size": 0
+        },
+        {
+            "hash": 1083074049,
+            "name": "1083074049",
+            "size": 0
+        },
+        {
+            "hash": 626433366,
+            "name": "626433366",
+            "size": 0
+        },
+        {
+            "hash": 2542281398,
+            "name": "2542281398",
+            "size": 0
+        },
+        {
+            "hash": 1659708180,
+            "name": "1659708180",
+            "size": 0
+        },
+        {
+            "hash": 4059966321,
+            "name": "4059966321",
+            "size": 0
+        },
+        {
+            "hash": 2009732703,
+            "name": "pointclamp",
+            "size": 0
+        },
+        {
+            "hash": 407719239,
+            "name": "trilinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 3829829819,
+            "name": "trilinearwrap",
+            "size": 0
+        },
+        {
+            "hash": 1252948325,
+            "name": "1252948325",
+            "size": 0
+        },
+        {
+            "hash": 2030326599,
+            "name": "miplinearclamp",
+            "size": 0
+        },
+        {
+            "hash": 1619499462,
+            "name": "1619499462",
+            "size": 0
+        },
+        {
+            "hash": 1186448975,
+            "name": "1186448975",
+            "size": 0
+        },
+        {
+            "hash": 3627498220,
+            "name": "trilinearborderblack",
+            "size": 0
+        },
+        {
+            "hash": 616934151,
+            "name": "gcsmshadowtexturesamp",
+            "size": 0
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 4258764495,
+            "name": "tintpaletteselector",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 1082098581,
+            "name": "glodfadetilescale",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 2451630214,
+            "name": "glodtransitionrange",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 1045458432,
+            "name": "foliagebranchbendpivot0",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2080381737,
+            "name": "treehorizontalbendstartratio0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3157391136,
+            "name": "treehorizontalbendexp0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3398333057,
+            "name": "treehorizontalbendscale0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1647605406,
+            "name": "treehorizontalbendupperbound0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2620760603,
+            "name": "treeverticalbendexp0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4098862397,
+            "name": "treeverticalbendscale0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2371302786,
+            "name": "treeverticalbendupperbound0",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 3828006041,
+            "name": "windminmaxthreshholds0",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 4250925815,
+            "name": "treemmspeed0",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0
+            ],
+            "hash": 3259929556,
+            "name": "treemmscale0",
+            "size": 2
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1219007173,
+            "name": "pbrcavityrange",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1802626656,
+            "name": "1802626656",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 4134611841,
+            "name": "bumpiness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 931055822,
+            "name": "alphascale",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1293272419,
+            "name": "shadowfalloff",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2215041894,
+            "name": "2215041894",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 929789562,
+            "name": "929789562",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3576883040,
+            "name": "enablenearcamerafade",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 693985334,
+            "name": "regiontintamount",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "hash": 4035335077,
+            "name": "tintoverride",
+            "size": 4
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 2682647218,
+            "name": "pbrtweak_metallic",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3596981284,
+            "name": "pbrtweak_sheen",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 1050543455,
+            "name": "pbrtweak_roughness",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 3884260641,
+            "name": "pbrtweak_ao",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 923928177,
+            "name": "pbrtweak_translucency",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 960660013,
+            "name": "pbrtweak_fresnel",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 458921302,
+            "name": "pbrtweak_detail",
+            "size": 1
+        },
+        {
+            "default_value": [
+                0.0
+            ],
+            "hash": 471519116,
+            "name": "pbrtweak_detailindex_",
+            "size": 1
+        }
+    ]
+}
